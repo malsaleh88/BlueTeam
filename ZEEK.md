@@ -1,10 +1,19 @@
-Install Zeek.
-Run Zeek to monitor traffic on the chosen interface.
-Zeek will create log files in the current directory. List the files to see the generated logs.
-Inspect the conn.log file. Use any text editor. Identify some key fields like ts, id.orig_h, id.resp_h, proto, duration, orig_bytes, resp_bytes.
-Explore Sample Scripts. Zeek comes with several sample scripts located generally in the /usr/share/zeek/scripts directory. Explore these scripts to get a feel for the syntax and functionalities.
-Create a Zeek script. Create a new file named test-conn.zeek. Write the script to print a message when a connection is established.
-Execute the script with Zeek on a pcap file or live traffic. If you don't have a pcap file, you can download a sample one from Wireshark Sample Captures or use a Wireshark pacap from your own capture.
+# Zeek Installation and Usage Guide
+
+1. **Install Zeek.**
+
+2. **Run Zeek to monitor traffic on the chosen interface.**
+
+3. **Zeek will create log files in the current directory. List the files to see the generated logs.**
+
+4. **Inspect the `conn.log` file. Use any text editor. Identify some key fields like `ts`, `id.orig_h`, `id.resp_h`, `proto`, `duration`, `orig_bytes`, `resp_bytes`.**
+
+5. **Explore Sample Scripts. Zeek comes with several sample scripts located generally in the `/usr/share/zeek/scripts` directory. Explore these scripts to get a feel for the syntax and functionalities.**
+
+6. **Create a Zeek script. Create a new file named `test-conn.zeek`. Write the script to print a message when a connection is established.**
+
+7. **Execute the script with Zeek on a PCAP file or live traffic. If you don't have a PCAP file, you can download a sample one from Wireshark Sample Captures or use a Wireshark PCAP from your own capture.**
+
 
 
 ![1](https://github.com/user-attachments/assets/52bf6db1-79f4-4d3e-92da-a8bf4165aaaa)
